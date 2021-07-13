@@ -4,12 +4,15 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: #fff;
     width: 870px;
     padding: 30px;
+    margin-top: 26px;
+    border-radius: 10px;
 }
 .section-title{
     font-size: 24px;
@@ -36,5 +39,33 @@ main{
 hr{
     border: 1px solid #D1D1D1;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 /* Top Blogs */
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: grey;
+    font-size: 14px;
+}
+.blog-author a{
+    font-size: 16px;
+    color: #562EFF;
+    text-decoration: none;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
