@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+}
+.section-title{
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-title{
+    margin-left: 16px;
+    font-size: 17px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+/* Top Blogs */
